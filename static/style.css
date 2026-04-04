@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #218be8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* box utama */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/* input */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* tombol */
+button {
+    padding: 10px 20px;
+    background: #4891de;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3256d7;
+}

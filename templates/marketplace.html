@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator Marketplace</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Kalkulator Marketplace</h1>
+
+    <form method="POST">
+        <input type="number" name="harga" placeholder="Masukkan harga" required>
+
+        <select name="marketplace">
+            <option value="tokopedia">Tokopedia</option>
+            <option value="shopee">Shopee</option>
+            <option value="lainnya">Lazada</option>
+        </select>
+
+        <button type="submit">Hitung</button>
+    </form>
+
+    {% if hasil is not none %}
+        <h2>Biaya: {{ biaya }}</h2>
+        <h2>Hasil Bersih: {{ hasil }}</h2>
+    {% endif %}
+</div>
+
+</body>
+</html>
