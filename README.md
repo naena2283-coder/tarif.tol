@@ -1,4 +1,5 @@
 Cuplikan layar 2026-04-09 203840.png
+Cuplikan layar 2026-04-09 203902.png
 
 dibagian hitung_biaya(harga, marketplace) yang berfungsi untuk menghitung biaya admin dan hasil akhir.
 di sini harga bertipe float karena berupa angka, sedangkan marketplace bertipe string karena berupa teks 
